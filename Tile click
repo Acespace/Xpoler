@@ -1,0 +1,58 @@
+<html>
+<head>
+<title></title>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="background">
+<center>
+<div class="demo">
+  <input id= "search" type="text">
+  <div class="row" >
+    <div id="1" class="col-xs-6 col-md-1">
+     <button id="1" class="btn btn-default btn-lg btn-large" type="button" data-toggle="dropdown" aria-expanded="false" onclick="input(this.id)">
+      Tile1 
+     </button>
+  </div>
+  <div id="2" class="col-xs-6 col-md-1">
+     <button id = "2" class="btn btn-default btn-lg btn-large" type="button" data-toggle="dropdown" aria-expanded="false" onclick="input(this.id)">
+      Tile2 
+     </button>
+  </div>
+  </div>
+
+  <div class="row">
+   <div id="3" class="col-xs-6 col-md-1">
+     <button id="3" class="btn btn-default btn-lg btn-large" type="button" data-toggle="dropdown" aria-expanded="false" onclick="input(this.id)">
+      Tile3 
+    </button>
+    </div>
+   <div id="4" class="col-xs-6 col-md-1">
+   <button id="4" class="btn btn-default btn-lg btn-large" type="button" data-toggle="dropdown" aria-expanded="false" onclick = "input(this.id)">
+     Tile4 
+    </button>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script>
+var count = 0
+function input(number) {
+    var user_input = [];
+  	user_input[count] = number;
+  	count ++;
+  	//document.write(user_input);
+  	//return user_input;
+}
+</script>
